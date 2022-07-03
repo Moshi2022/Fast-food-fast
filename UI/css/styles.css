@@ -79,7 +79,7 @@ body {
 /*Styling for navigation bar*/
 .navbar{
   overflow: hidden;
-  background-color: #fff;
+  background-color: rgba(146, 209, 107, 0.628);
 }
 .navbar a {
   float: left;
