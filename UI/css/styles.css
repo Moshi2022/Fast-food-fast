@@ -6,7 +6,7 @@ html {
 }
 /*styling for layout*/   
 body {
-	background-color: #ffff;
+	background-color: rgba(255, 255, 255, 0.58);
   margin: 0px;
   line-height: 1.4;
   font-family: Arial, Helvetica, sans-serif, serif;
@@ -82,10 +82,10 @@ body {
   background-color: rgba(146, 209, 107, 0.628);
 }
 .navbar a {
-  float: left;
+  float: right;
   display: block;
-  color: #656;
-  text-align: center;
+  color: rgb(86, 104, 218);
+  text-align: lefts;
   padding: 10px 12px;
   text-decoration: none;
   font-size: 21px;
