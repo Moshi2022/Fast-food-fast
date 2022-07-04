@@ -33,7 +33,7 @@ body {
   width: 100%;
   height: 100%;
   margin-top: auto;
-  background-image: url("../img/set-table.jpg");
+  background-image: url("../img/set-table2021.jpg");
   text-align: center;
   background-size:cover;
   background-position:center;
@@ -102,7 +102,8 @@ body {
 }
 
 .navbar a.nav-item:hover:not(.active) {
-  border-bottom: 2px solid #4CAF50;
+  border-bottom: 2px solid 
+  #4CAF50;
 }
 
 .active {
@@ -318,7 +319,7 @@ body {
   text-align: center;
 }
 button {
-  background-color: #591205;
+  background-color: #3d5905;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -352,7 +353,7 @@ span.psw {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #591205;
+  background-color: #3d5905;
   color: white;
   font-family:"Tahoma";
   font-size:12px;
