@@ -395,7 +395,7 @@ span.psw {
  
 .text-center {
   text-align: center !important;
-  
+  margin-bottom: -3%;
 }
 .italic{
   font-style: italic; 
@@ -483,9 +483,9 @@ span.psw {
 	margin-left:25%;
 }
 .float-center{
-	position: fixed;
-  top: 50%;
-  left: 50%;
+	position: relative;
+  top: 30%;
+  left: 30%;
   transform: translate(-50%, -50%);
 }
 /*styling for tables*/
@@ -537,14 +537,17 @@ table.admin-table {
   border-collapse: collapse;
 }
 table.admin-order-table {
-  border: 1px solid green;
+  text-align: center;
+  margin-left: 20%;
+  border: 3px solid rgb(128, 0, 45);
   background-color: whitesmoke;
-  width: 60%;
+  width: 80%;
   text-align: left;
   border-collapse: collapse;
 }
 table.admin-table td, table.admin-table th {
-  border: 3px solid #aaaaaa;
+  text-align: left;
+  border: 1px solid #aaaaaa;
   padding: 1px 1px;
 }
 table.admin-table tbody td {
@@ -569,7 +572,7 @@ table.admin-table thead th {
 table.admin-table thead th:first-child {
   border-left: none;
 }
-table.admin-table td:first-child { width: 28% }
+table.admin-table td:first-child { width: 26% }
 table.admin-table td:nth-child(2) { width: 20% }
 table.admin-table td:last-child { width: 20% }
 
