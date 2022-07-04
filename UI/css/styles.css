@@ -56,6 +56,10 @@ body {
   padding-left: 0px;
   padding-right: 0px;
 }
+.menu {
+  text-align: left;
+}
+
 .text-block-3 {
   position: absolute;
   bottom: 400px;
@@ -81,6 +85,7 @@ body {
   overflow: hidden;
   background-color: rgba(146, 209, 107, 0.628);
 }
+
 .navbar a {
   float: right;
   display: block;
@@ -95,6 +100,15 @@ body {
   float:left;
   margin-top: 0px;
   font-size: 26px;
+}
+.adds{font-style: inherit;
+  font-size: larger;
+  margin-right: 10%; 
+}
+.center1{
+  margin: left 5px;10%;
+text-align: center;
+
 }
 .navbar a.nav-item{
   float: right;
@@ -352,7 +366,7 @@ span.psw {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #591205;
+  background-color: #05592b;
   color: white;
   font-family:"Tahoma";
   font-size:12px;
