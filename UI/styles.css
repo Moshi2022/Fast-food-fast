@@ -1,0 +1,264 @@
+/*Styling for reset*/
+html {
+	font-family: Arial, Helvetica, sans-serif, serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+/*styling for layout*/   
+body {
+	background-color: #ffff;
+  margin: 0px;
+  line-height: 1.4;
+  font-family: Arial, Helvetica, sans-serif, serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #333;
+  }
+
+  body,html {
+    height: 100%;
+  }
+
+
+/*Styling for navigation bar*/
+.navbar{
+  overflow: hidden;
+  background-color: #fff;
+
+  margin-right: 50px;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #656;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: 900;
+}
+.navbar a.nav-logo {
+  float:left;
+  margin-top: 0px;
+  font-size: 26px;
+  padding-left: 25px;
+}
+.navbar a.nav-item{
+  float: right;
+  margin-top: 0px;
+}
+
+.navbar a.nav-item:hover:not(.active) {
+  border-bottom: 2px solid #4CAF50;
+}
+
+.active {
+  border-bottom: 2px solid #4CAF50;
+}
+
+.right {
+  float: right;
+}
+#red{
+  color:#f13 !important;
+}
+
+#green{
+  color:#1b5 !important;
+  }
+
+#brown{
+  color:brown !important;
+}
+
+#blue{
+      color:blue !important;
+}
+
+/*Styling the 'content' class*/
+.content{
+  max-width:480px;    
+  margin:200 auto;
+  text-align:right;
+
+}
+
+.content h1{
+  color: #ff4411; 
+  font-size: 100px; 
+  font-family: 'Signika', sans-serif; 
+  padding-bottom: 10px; 
+}
+
+
+.content h2{
+  color:tomato;
+  font-size:130%;
+  line-height:160%;
+  text-align:center;
+  margin:8%;
+  font-family:trebuchet helvetica arial;
+
+}
+
+
+
+@keyframes moveInBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(30px);
+  }
+  100% {
+      opacity: 1;
+      transform: translate(0);
+  }
+}
+
+/*Styling for sign in and sign up pages*/
+.centered {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*Styling for the footer*/
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+  background-color: #0d6851;
+  color: white;
+  font-family:"Tahoma";
+  font-size:12px;
+  font-weight:bold;
+  color:#FFFFFF;
+  text-decoration:none
+}
+
+footer p {
+  padding: 10px;
+}
+#left {
+ float: left;
+}
+#right {
+ float: right;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-left {
+  text-align: left !important;
+}
+ 
+.text-center {
+  text-align: center !important;
+  
+}
+.strong { 
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#bg-menu{
+	background: whitesmoke;
+}
+
+.blue:hover{
+	background: blue;
+	border-color: blue;
+}
+
+.green:hover{
+	background: green;
+	border-color: green;
+}
+
+
+.float-right{
+	margin-right: 0!important;
+	margin-left:25%;
+}
+
+
+table.admin-table {
+  border: 1px solid #1C6EA4;
+  background-color: #ffffff;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.admin-order-table {
+  border: 1px solid green;
+  background-color: whitesmoke;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.admin-table td, table.admin-table th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.admin-table tbody td {
+  font-size: 13px;
+}
+
+table.admin-table thead {
+  background: #ffffff;
+  border-bottom: 2px solid #444444;
+}
+table.admin-table thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  border-left: 2px solid #D0E4F5;
+}
+table.admin-table thead th:first-child {
+  border-left: none;
+}
+table.admin-table td:first-child { width: 30% }
+table.admin-table td:nth-child(2) { width: 10% }
+table.admin-table td:last-child { width: 10% }
+
+table.admin-table tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #D0E4F5;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444444;
+}
+table.admin-table tfoot td {
+  font-size: 14px;
+}
+table.admin-table tfoot .links {
+  text-align: right;
+}
+table.admin-order-table tfoot .links {
+  text-align: center;
+}
+table.admin-table tfoot .links a{
+  display: inline-block;
+  background: #055659;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+table.admin-order-table tfoot .links a{
+  display: inline-block;
+  background: #fff;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+table {
+  margin-bottom: 7rem;
+}
+
+/*The end*/
