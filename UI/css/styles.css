@@ -71,6 +71,7 @@ body {
   padding-left: 0px;
   padding-right: 0px;
 }
+
 .text-block-sign-in {
   position: absolute;
   top: 3px;
@@ -354,7 +355,8 @@ button:hover {
 
 span.psw {
   float: right;
-  padding-top: 16px;
+  padding-top: 20px;
+  
 }
 
 @media screen and (max-width: 300px) {
@@ -368,6 +370,7 @@ span.psw {
 }
 /*Styling for the footer*/
 .footer {
+  text-align: center;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -387,16 +390,18 @@ span.psw {
  float: right;
 }
 .text-right {
-  text-align: right !important;
+  text-align: center !important;
 }
 .text-left {
   text-align: left !important;
+}
+.newdiv{
+  text-align: center;
 }
  
 .text-center { 
 margin-left: -20% 
   text-align center !important;
-  
 }
 .italic{
   font-style: italic; 
@@ -463,6 +468,7 @@ margin-left: -20%
 .large-width{
 	margin-top: 80px;
 	margin-bottom: 0!important;
+  text-align: left;
 }
 
 .item-links .btn, .item-links .btn .blue{
@@ -536,6 +542,9 @@ table.admin-table {
   width: 80%;
   text-align: left;
   border-collapse: collapse;
+}
+.last{
+text-align: center;
 }
 table.admin-order-table {
   border: 1px solid green;
