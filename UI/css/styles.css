@@ -372,7 +372,7 @@ span.psw {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #05592b;
+  background-color: #1b5905;
   color: white;
   font-family:"Tahoma";
   font-size:12px;
@@ -393,8 +393,9 @@ span.psw {
   text-align: left !important;
 }
  
-.text-center {
-  text-align: center !important;
+.text-center { 
+margin-left: -20% 
+  text-align center !important;
   
 }
 .italic{
