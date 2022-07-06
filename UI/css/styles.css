@@ -42,7 +42,7 @@ body {
   position: absolute;
   top: 30px;
   left: 15px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: #ca6;
   padding-left: 0px;
   padding-right: 0px;
@@ -352,7 +352,7 @@ span.psw {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #591205;
+  background-color: #1b5905;
   color: white;
   font-family:"Tahoma";
   font-size:12px;
@@ -373,8 +373,9 @@ span.psw {
   text-align: left !important;
 }
  
-.text-center {
-  text-align: center !important;
+.text-center { 
+margin-left: -20% 
+  text-align center !important;
   
 }
 .italic{
