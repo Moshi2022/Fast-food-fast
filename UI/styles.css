@@ -19,6 +19,9 @@ body {
   body,html {
     height: 100%;
   }
+  .psw{
+  padding: auto;
+  }
 
 
 /*Styling for navigation bar*/
@@ -154,8 +157,11 @@ footer p {
 }
  
 .text-center {
-  text-align: center !important;
+text-align: center !important;
   
+}
+.newclass{
+  text-align: center;
 }
 .strong { 
   font-weight: bold;
