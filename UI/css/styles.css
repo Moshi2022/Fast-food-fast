@@ -6,7 +6,7 @@ html {
 }
 /*styling for layout*/   
 body {
-	background-color: #ffff;
+	background-color: rgba(255, 255, 255, 0.58);
   margin: 0px;
   line-height: 1.4;
   font-family: Arial, Helvetica, sans-serif, serif;
@@ -24,7 +24,7 @@ body {
   width: 100%;
   height: 100%;
   margin-top: auto;
-  background-image: url("../img/steak-chop.jpg");
+  background-image: url("../img/Backgroundimage01.jpg");
   text-align: center;
   background-size:cover;
   background-position:center;
@@ -42,8 +42,8 @@ body {
   position: absolute;
   top: 30px;
   left: 15px;
-  background-color: rgb(255, 255, 255);
-  color: #ca6;
+  background-color: white;
+  color: brown;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -56,6 +56,10 @@ body {
   padding-left: 0px;
   padding-right: 0px;
 }
+.menu {
+  text-align: left;
+}
+
 .text-block-3 {
   position: absolute;
   bottom: 400px;
@@ -79,13 +83,14 @@ body {
 /*Styling for navigation bar*/
 .navbar{
   overflow: hidden;
-  background-color: #fff;
+  background-color: rgba(146, 209, 107, 0.628);
 }
+
 .navbar a {
-  float: left;
+  float: right;
   display: block;
-  color: #656;
-  text-align: center;
+  color: rgb(86, 104, 218);
+  text-align: lefts;
   padding: 10px 12px;
   text-decoration: none;
   font-size: 21px;
@@ -95,6 +100,21 @@ body {
   float:left;
   margin-top: 0px;
   font-size: 26px;
+}
+.adds{font-style: inherit;
+  font-size: larger;
+  margin-right: 10%; 
+}
+.positions{
+margin-right: 10%;
+}
+.trcenter{
+  text-align: center;
+}
+.center1{
+  margin: left 5px;10%;
+text-align: center;
+
 }
 .navbar a.nav-item{
   float: right;
@@ -387,7 +407,7 @@ margin-left: -20%
 }
 
 #bg-menu{
-	background: whitesmoke;
+	background: brown;
 }
 .item{
 	display: flex;
@@ -525,20 +545,20 @@ table.admin-order-table {
   border-collapse: collapse;
 }
 table.admin-table td, table.admin-table th {
-  border: 1px solid #AAAAAA;
-  padding: 3px 2px;
+  border: 3px solid #aaaaaa;
+  padding: 1px 1px;
 }
 table.admin-table tbody td {
   font-size: 13px;
 }
 table.admin-table tr:nth-child(even) {
-  background: #D0E4F5;
+  background: #f5ebd0;
 }
 table.admin-table thead {
-  background: #1C6EA4;
-  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
-  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
-  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: #a48d1c;
+  background: -moz-linear-gradient(top, #bb8b55 10%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #bb8b55 10%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom,#bb8355 10%, #bba055 66%, #1C6EA4 100%);
   border-bottom: 2px solid #444444;
 }
 table.admin-table thead th {
@@ -550,9 +570,9 @@ table.admin-table thead th {
 table.admin-table thead th:first-child {
   border-left: none;
 }
-table.admin-table td:first-child { width: 30% }
-table.admin-table td:nth-child(2) { width: 10% }
-table.admin-table td:last-child { width: 10% }
+table.admin-table td:first-child { width: 28% }
+table.admin-table td:nth-child(2) { width: 20% }
+table.admin-table td:last-child { width: 20% }
 
 table.admin-table tfoot {
   font-size: 14px;
@@ -576,9 +596,9 @@ table.admin-order-table tfoot .links {
 table.admin-table tfoot .links a{
   display: inline-block;
   background: #1C6EA4;
-  color: #FFFFFF;
+  color:;
   padding: 2px 8px;
-  border-radius: 5px;
+  border-radius: 5px #ffffff;
 }
 table.admin-order-table tfoot .links a{
   display: inline-block;
